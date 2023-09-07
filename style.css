@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Delicious+Handrawn&family=Julee&family=Lora&family=Pacifico&family=Roboto:wght@300&display=swap');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* background: radial-gradient(red,purple); */
+    /* background-color: gray; */
+}
+
+.button{
+    padding: 20px;
+    margin: 0 7px;
+    /* border: 5px solid rgb(58, 128, 0); */
+    border-radius: 40%;
+    cursor: pointer;
+    font-size: 20px;
+    width: 55px;
+    /* background-color: rgb(171, 169, 169); */
+
+}
+
+.row{
+    margin: 8px 0;
+    /* margin-top: -10px; */
+}
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 11px 13px;
+    /* border: 3px solid purple; */
+    border-radius: 15px;
+    /* background-color: rgb(171, 169, 169); */
+}
+.content{
+    position: absolute;
+    top: 80px;
+    color: black;
+    text-align: left;
+    margin-right: 800px;
+    font-size: 20px;
+    margin-left: 20px;
+    /* left: 100px; */
+}
+p,h1{
+    color: white;
+}
+.content>#lower{
+    margin-left: 250px;
+}
+.content>#name{
+    color: white;
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: -10px;
+    text-decoration: underline;
+}
+.row>#color{
+    background-color: orange;
+}
+.row>#color1{
+    background-color: gray;
+}
